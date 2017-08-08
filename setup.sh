@@ -33,7 +33,7 @@ cp /usr/lib/hdinsight-logging/microsoft-log4j-etwappender-1.0.jar /var/lib/drill
 
 cd /var/lib/drill/$DRILLDIR/conf
 rm -f ./logback.xml
-wget https://raw.githubusercontent.com/yaron2/hdinsight-drill/master/logback.xml 
+wget https://raw.githubusercontent.com/hdinsight/drill-hdinsight/master/logback.xml
 
 cd /var/lib/drill
 
